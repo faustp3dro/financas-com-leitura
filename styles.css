@@ -212,6 +212,13 @@ main {
   color: var(--paper);
 }
 
+.book-cover-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  box-shadow: 0 24px 48px -12px rgba(0,0,0,0.25), 0 8px 16px -4px rgba(0,0,0,0.1);
+}
+
 .book-cover .book-title {
   font-family: var(--font-display);
   font-weight: 700;
